@@ -8,14 +8,23 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <h1>石头剪刀布游戏</h1>
+  <h1>Rock Paper Scissors</h1>
     <div class="choices">
-        <button class="choice-button" onclick="playGame('石头')">石头</button>
-        <button class="choice-button" onclick="playGame('剪刀')">剪刀</button>
-        <button class="choice-button" onclick="playGame('布')">布</button>
+        <button class="choice-button" 
+        onclick="playGame('石头')">
+        <span class="iconify" data-icon="la:hand-rock"></span>
+      </button>
+        <button class="choice-button" onclick="playGame('剪刀')">
+          <span class="iconify" data-icon="mingcute:scissors-fill"></span>
+        </button>
+        <button class="choice-button" onclick="playGame('布')">
+          <span class="iconify" data-icon="game-icons:paper"></span>
+        </button>
     </div>
     <div class="result" id="result"></div>
-    <div class="score" id="score">得分：0</div>
+    <div class="score" id="score">得分:0</div>
+
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
     <script src="./main.js"></script>
 </body>
 </html>
