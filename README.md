@@ -6,4 +6,8 @@
 
 ```bash
 npx parcel src/index.html --no-cache
+
+or
+
+npm run dev 
 ```
