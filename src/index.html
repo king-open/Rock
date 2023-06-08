@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>game</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>石头剪刀布游戏</h1>
+    <div class="choices">
+        <button class="choice-button" onclick="playGame('石头')">石头</button>
+        <button class="choice-button" onclick="playGame('剪刀')">剪刀</button>
+        <button class="choice-button" onclick="playGame('布')">布</button>
+    </div>
+    <div class="result" id="result"></div>
+    <div class="score" id="score">得分：0</div>
+    <script src="./main.js"></script>
+</body>
+</html>
