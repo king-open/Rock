@@ -11,3 +11,7 @@ or
 
 npm run dev 
 ```
+
+### 预览
+
+![rock](./rock.png)
