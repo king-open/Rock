@@ -15,3 +15,8 @@ npm run dev
 ### 预览
 
 ![rock](./rock.png)
+
+
+### [LICENSE](https://github.com/king-open/Rock/blob/main/LICENSE)
+
+MIT License © 2023 King
